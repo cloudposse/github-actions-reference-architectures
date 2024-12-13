@@ -85,7 +85,7 @@ jobs:
 
       - name: Build
         id: build
-        uses: cloudposse/github-action-docker-build-push@1.15.0
+        uses: cloudposse/github-action-docker-build-push@v1.17.2
         with:
           organization: ${{ inputs.organization }}
           repository: ${{ inputs.repository }}
